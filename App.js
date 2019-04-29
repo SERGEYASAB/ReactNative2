@@ -17,7 +17,7 @@ export default class App extends Component/*<Props>*/ {
         <Headers>
           <Image
             style={{ width: 320, height: 200 }}
-            source={require('images/header.png')} />
+            source={require('../src/images/header.png')} />
         </Headers>
         <TextInput style={styles.input} />
         <TextInput style={styles.input} />
@@ -28,14 +28,14 @@ export default class App extends Component/*<Props>*/ {
           title="SIGN UP" />
         <Image
           style={{ width: 50, height: 50 }}
-          source={require('images/facebook.png')}
+          source={require('../src/images/facebook.png')}
           onPress={login()} />
         <Image
           style={{ width: 50, height: 50 }}
-          source={require('images/twitter.png')} />
+          source={require('../src/images/twitter.png')} />
         <Image
           style={{ width: 50, height: 50 }}
-          source={require('images/instagram.png')} />
+          source={require('../src/images/instagram.png')} />
         <Button
           title="NO LOGIN" />
       </View >
